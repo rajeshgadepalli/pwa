@@ -1,216 +1,125 @@
-<!--
- Your First PWA Codelab (https://g.co/codelabs/pwa)
-
- Copyright 2019 Google Inc.
-
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Weather PWA">
-  <meta name="description" content="A sample weather app">
-  <meta name="theme-color" content="#2F3BA2" />
-  <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
-  <title>Weather PWA</title>
-  <meta name="codelab" content="your-first-pwa-v3">
-  <link rel="stylesheet" type="text/css" href="/styles/inline.css">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-  <!-- CODELAB: Add link rel manifest -->
-  <!-- CODELAB: Add iOS meta tags and icons -->
-  <!-- CODELAB: Add description here -->
-  <!-- CODELAB: Add meta theme-color -->
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bniv3/css/v3.1.css">
+    <title>OKQR</title>   
+  </head>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style>
+
+</style>
+
+
+<script>
+   document.getElementsByTagName("html")[0].className += " js";
+        function myFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById('hid_elem').value;
+
+            var $temp = $("<textarea>");
+            $("body").append($temp);
+            $temp.val(copyText).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert(copyText + ' copied to clipboard');
+            /* Select the text field */
+            // copyText.select();
+
+            // /* Copy the text inside the text field */
+            // document.execCommand("copy");
+
+            // /* Alert the copied text */
+            // alert("Copied the text: " + copyText.value);
+        };
+		
+		</script>
 
 <body>
 
-  <header class="header">
-    <h1>
-      Weather PWA
-      <a href="https://darksky.net/poweredby/" class="powered-by">
-        Powered by Dark Sky
-      </a>
-    </h1>
-    <button id="butInstall" aria-label="Install" hidden></button>
-    <button id="butRefresh" aria-label="Refresh"></button>
-  </header>
 
-  <main class="main">
 
-    <button id="butAdd" class="fab" aria-label="Add">
-      <span class="icon add"></span>
-    </button>
+    <div class="container">
 
-    <div id="about" class="weather-card">
-      <b>Your First Progressive Web App Codelab with Changes to Index - II</b><br>
-      Get started at <a href="https://g.co/codelabs/pwa">https://g.co/codelabs/pwa</a>.
+
+<div class="okqrhd0">
+
+ 
+	
+	 <!-- Custom rounded search bars with input group -->
+	 
+	   <div class="brandlogobaner">
+	 <a href="/a/bnioscar" class="imglink">
+    <img src="/bniv3/media/images/white.png"style="visibility:hidden">
+	</a> -->
+<span class="brand2">	
+	<img src="/bniv3/media/images/okqr_m.png"\>
+	</span>
     </div>
 
-    <div id="weather-template" class="weather-card" hidden>
-      <div class="card-spinner">
-        <svg viewBox="0 0 32 32" width="32" height="32">
-          <circle cx="16" cy="16" r="14" fill="none"></circle>
-        </svg>
-      </div>
-      <button class="remove-city">&times;</button>
-      <div class="city-key" hidden></div>
-      <div class="card-last-updated" hidden></div>
-      <div class="location">&nbsp;</div>
-      <div class="date">&nbsp;</div>
-      <div class="description">&nbsp;</div>
-      <div class="current">
-        <div class="visual">
-          <div class="icon"></div>
-          <div class="temperature">
-            <span class="value"></span><span class="scale">°F</span>
-          </div>
-        </div>
-        <div class="description">
-          <div class="humidity">
-            <span class="label">Humidity:</span>
-            <span class="value"></span><span class="scale">%</span>
-          </div>
-          <div class="wind">
-            <span class="label">Wind:</span>
-            <span class="value"></span>
-            <span class="scale">mph</span>
-            <span class="direction"></span>°
-          </div>
-          <div class="sunrise">
-            <span class="label">Sunrise:</span>
-            <span class="value"></span>
-          </div>
-          <div class="sunset">
-            <span class="label">Sunset:</span>
-            <span class="value"></span>
-          </div>
-        </div>
-      </div>
-      <div class="future">
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+   
+  
 
-  <div id="addDialogContainer">
-    <div class="dialog">
-      <div class="dialog-title">Add new city</div>
-      <div class="dialog-body">
-        <select id="selectCityToAdd" aria-label="City to add">
-          <!--
-            Values are lat/lon values, use Google Maps to find and add
-            additional cities.
-          -->
-          <option value="28.6472799,76.8130727">Dehli, India</option>
-          <option value="-5.7759362,106.1174957">Jakarta, Indonesia</option>
-          <option value="51.5287718,-0.2416815">London, UK</option>
-          <option value="40.6976701,-74.2598666">New York, USA</option>
-          <option value="48.8589507,2.2770202">Paris, France</option>
-          <option value="-64.8251018,-63.496847">Port Lockroy, Antarctica</option>
-          <option value="37.757815,-122.5076401">San Francisco, USA</option>
-          <option value="31.2243085,120.9162955">Shanghai, China</option>
-          <option value="35.6735408,139.5703032">Tokyo, Japan</option>
-        </select>
-      </div>
-      <div class="dialog-buttons">
-        <button id="butDialogCancel" class="button">Cancel</button>
-        <button id="butDialogAdd" class="button">Add</button>
-      </div>
-    </div>
-  </div>
 
-  <!-- <script src="/scripts/luxon-1.11.4.js"></script> -->
-  <!-- <script src="/scripts/app.js"></script> -->
-  <!-- CODELAB: Add the install script here -->
+   
+  
+<div class="container" style="padding-left:10px;padding-right:10px;  ">
+<div class="row" style="padding:10px; padding-top:0px;">
+<img src="/bniv3/media/images/prod_name.png" alt="Lights" style="width:100%;height:250px;">
+</div>
+
+<h4 class="text-center" style=" font-family: 'Montserrat',sans-serif;color:#282727; font-weight:900">About OKQR</h4>
+
+
+<h6  class="text-center" style=" font-family: 'Montserrat',sans-serif;color:#282727;font-weight:700">(pronounced as ‘Okay QR’)</h6>
+
+
+<div class="row" style="padding:10px;">
+ <p style="margin-left:10px; font-family: 'Montserrat',sans-serif;"> OKQR is a Simple, Innovative and Affordable QR Marketing Platform for Small and Medium Enterprises.</p>
+ <p style="margin-left:10px; font-family: 'Montserrat',sans-serif">Using OKQR Mobile platform, generate a customized QR Code for your business within minutes and associate details like:</p>
+</div>
+ <div class="row" style="padding-left:10px; font-family: 'Montserrat',sans-serif;">
+ <ul>
+ 
+  <li>&nbsp Your Catalog of Products & Services</li>
+  <li>&nbsp Special Offers & Events</li>
+  <li>&nbsp Contact Details with Location</li>
+  <li>&nbsp Videos, Social Media & Other links</li>
+  ...&nbsp and much more! 
+</ul> 
+</div>
+<div class="row" style="padding:10px; font-family: 'Montserrat',sans-serif;">
+<p style="margin-left:10px; font-family: 'Montserrat',sans-serif;">Print your QR on Business Cards, Posters, Pamphlets, Signages, Hoardings and any other marketing material to reach out to your customers.</p>
+<p style="margin-left:10px; font-family: 'Montserrat',sans-serif;">Allow your customers to Scan & Share your Business information with their mobiles, using a simple QR Code.</p>
+<p style="margin-left:10px; font-family: 'Montserrat',sans-serif;">Interested in trying it out for your Business?</p>
+</div>
+<div class="row" style="padding:20px; font-family: 'Montserrat',sans-serif;">
+<address>
+Contact:<br> 
+<a>Rajeev@Techub.in</a><br>
+Appspace Innovation Pvt. Ltd <br>
+Hyderabad. 
+</address>
+</div>
+
+</div>
+    
   <script>
     // CODELAB: Register service worker.
     if ('serviceWorker' in navigator) {
@@ -222,7 +131,6 @@
       });
     }
   </script>
-
-</body>
-
-</html>
+   
+    </body>
+    </html>
