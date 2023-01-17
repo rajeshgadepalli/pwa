@@ -2,87 +2,115 @@
   "category": "Bakery",
   "sections": [
     {
-      "section": "Homepage",
-      "content": "\n\nWelcome to the tasty and delightful world of ________________________________ Bakery! Our bakers specialize in creating delicious pastries, cakes and other treats that are made fresh to ensure the highest quality and taste.\n\nWe believe that the best baked goods come from scratch and only the finest ingredients. That is why we make sure that each flavor combination is carefully created and prepared with love. From Wedding Cakes to Birthday Cakes, our bakery offers something special for every occasion.\n\nWe also offer a wide range of breads, pastries, and other baked goods for breakfast, lunch, and dessert. Whether you’re looking for something to satisfy your sweet tooth or a savory snack, ________________ Bakery has something for everyone.\n\nFor those special moments, ________________ Bakery provides custom cakes and cupcakes. Our team is dedicated to ensuring your special occasion is as special as it should be. No matter the occasion, we have something to make your day memorable.\n\nAnd for those in need of a quick snack, ______________ Bakery has you covered. Our selection of muffins, scones, cookies and other treats are always fresh and delicious. Our breads and shortbreads are baked with love and are always pleasing to the palate.\n\nWe invite you to take a sweet journey with us and explore the delicious goodies we have to offer. With our wide selection of delicious treats, you can be sure to find something to please your taste buds!",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-udplW1gZ28DLBmas6RSmbMIs.png?st=2023-01-11T07%3A21%3A59Z&se=2023-01-11T09%3A21%3A59Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T02%3A49%3A00Z&ske=2023-01-12T02%3A49%3A00Z&sks=b&skv=2021-08-06&sig=vRMYEX7tkH4FeHApR1GrFOfesI1sgUCou0oKwIO7/N4%3D"
+      "name": "Hero",
+      "content": {
+        "title": "Yummy Bakery",
+        "subtitle": "A one of a kind bakery near you!"
+      }
+    },
+    {
+      "name": "Features",
+      "content": [
+        "Our Features",
+        "at Sweet Taste Bakery",
+        [
+          {
+            "title": "Freshly baked sourdoughs",
+            "description": "Our bakery is known for its handcrafted sourdoughs, crafted with high quality ingredients and freshness guaranteed"
+          },
+          {
+            "title": "Cakes for every occasion",
+            "description": "Our bakery offers custom made cakes for all kinds of occasions, be it birthday parties, baby showers, anniversaries, etc."
+          },
+          {
+            "title": "Artisanal pastries",
+            "description": "We offer a selection of artisanal pastries that would take your breath away with their stunning looks and superb taste"
+          },
+          {
+            "title": "Private catering services",
+            "description": "We offer private catering services for events such as weddings, special events, corporate events and more"
+          },
+          {
+            "title": "Locally sourced ingredients",
+            "description": "We source all our ingredients locally so that we can ensure that only the best quality ingredients are used"
+          }
+        ]
       ]
     },
     {
-      "section": "Product Page",
-      "content": "\n\nWelcome to Mayberry Bakery! We are delighted to have you here and look forward to serving all of your bakery needs. Our bakery specializes in delicious made-from scratch treats, handmade with quality ingredients from local farms. Whether you’re \"craving something sweet and delicious,\" “needing something for a special occasion,” or “just want a little something to lift your spirits”, Mayberry Bakery is here to help.\n\nOur bakery offers delectable cakes, cupcakes, cookies, pies, and tarts. We can create custom cakes for birthdays, weddings, and any other special event you may have. Our cakes can be personalized with any design of your choice or you can choose something from our ever-expanding selection of delicious flavors. We also offers a wide variety of cookies, cupcakes and other tasty treats featuring ingredients like dark chocolate, raspberry, and pistachio.\n\nAt Mayberry Bakery, we believe that the best ingredients make for the best baked goods. That’s why we take pride in using the finest, freshest ingredients. We have a strong commitment to sustainability, so we source most of our ingredients from local farms and are happy to accommodate any special dietary needs.\n\nWe’re also proud to offer our customers a variety of exciting seasonal offerings. From \"Halloween Cupcakes\" to “Summer Pies”, there’s always something delicious to enjoy.\n\nNo matter what occasion you’re shopping for, Mayberry Bakery has something for everyone. We invite you to explore our wonderful selection of baked goods and let us help make your special occasion even more memorable. We look forward to serving you at Mayberry Bakery!",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-8HgFGqLoPuA1CX0w0IMB6jp7.png?st=2023-01-11T07%3A22%3A19Z&se=2023-01-11T09%3A22%3A19Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T06%3A13%3A56Z&ske=2023-01-12T06%3A13%3A56Z&sks=b&skv=2021-08-06&sig=2StQuM3xZoQIYMsUc8xv5pUq/eT4dhY6XyePHpa85Dc%3D"
+      "name": "About Us",
+      "content": {
+        "title": "Welcome to Our Bakery",
+        "subtitle": "The Finest Quality Goods Since 2002",
+        "description": "Our Family Bakery, located in the heart of the city, has been serving up the finest quality goods since 2002. We specialize in a variety of baked goods ranging from cakes, cupcakes, and pies to more mouthwatering creations like scones, turnovers, pound cakes, and more. Our highly trained chefs have all the skills needed to make any cake or pastry you desire. Whether it's something simple and classic or something extravagant, our bakery can bring your idea to life. We also offer delivery and catering services! "
+      }
+    },
+    {
+      "name": "Testimonials",
+      "content": [
+        "Delightful Testimonials",
+        "What Our Customers Say",
+        [
+          {
+            "name": "Patrick Perfetti",
+            "designation": "Industry Expert",
+            "testimonial": "Your cakes are the best I have tasted in my life. They are so light, moist and delicious. I have been coming back for more and will continue doing so!"
+          },
+          {
+            "name": "Kelsey Davis",
+            "designation": "Event Planner",
+            "testimonial": "Your desserts have been a huge hit at the events that I have thrown. Everyone has been asking for more. Your team did a fantastic job with the presentation and flavor!"
+          },
+          {
+            "name": "TJ Burke",
+            "designation": "Food Critic",
+            "testimonial": "We have never tasted cakes as delicious and fresh as yours. You have completely outdone yourselves every single time. Keep up the good work!"
+          },
+          {
+            "name": "Linda Kent",
+            "designation": "Baker at Large",
+            "testimonial": "Your cakes take baking to a whole new level. I'm always inspired by your attention to detail in every cake that I have tasted. Simply the best!"
+          },
+          {
+            "name": "Steven Brown",
+            "designation": "Businessman",
+            "testimonial": "I've been ordering from your bakery for years now and I've never been disappointed. You consistently meet my expectations and provide me with the best."
+          }
+        ]
       ]
     },
     {
-      "section": "About Us",
-      "content": "\n\nWelcome to Delicious Delights Bakers, the best bakery in town. We create the most delicious and mouth-watering cakes, pastries, pies, cookies, breads, and desserts - all made fresh daily with the finest ingredients. Our goal is to provide our customers with a bakery experience like no other - fresh, delectable delectables that look as delightful as they taste.\n\nOur bakers have over 20 years of experience in producing unique and delicious creations that suit any special occasion or event. We specialize in custom cakes, wedding cakes, cupcakes, dessert tables, birthday cakes, holiday treats, and other specialty goodies. Our chefs and bakers also provide a full range of cookies, brownies, bars, and muffins that make the perfect addition to any celebration.\n\nDelicious Delights Bakers is a place where the smell of freshly baked goods lingers in the air. Our bakers rise early every morning to make fresh cookies, cakes and cupcakes to the highest standards of taste and quality. Our mission is to provide our customers with the best selection of delectable treats at an unbeatable price.\n\nWe believe that customer service is the key to success and treat each customer with the same level of respect, courtesy and hospitality every time. Our team of bakers is highly trained and skilled and is always on hand to answer questions or offer suggestions when creating the perfect cake or other sweet treat.\n\nAt Delicious Delights Bakers, our priority is to make sure that everything we make is the perfect addition to any special occasion or event. Whether you need a cake for a birthday, wedding, or corporate event, we guarantee that your guests will be delighted with our delicious creations. Come see us today and indulge in the sweet goodness that only Delicious Delights Bakers can provide.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-gejXyiAL7V4DwgrilsnMcjGu.png?st=2023-01-11T07%3A22%3A40Z&se=2023-01-11T09%3A22%3A40Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T03%3A18%3A09Z&ske=2023-01-12T03%3A18%3A09Z&sks=b&skv=2021-08-06&sig=rjvlxcQ36lpXsTpWXkvvqz84AlNX4l/ACyaRHc05Ipw%3D"
-      ]
-    },
-    {
-      "section": "Gallery",
-      "content": "\n\nWelcome to the gallery of My Sweet Bakery, where you can view the best desserts and treats we have to offer. At My Sweet Bakery, we take pride in providing our customers with fresh and delicious baked goods that will satisfy your sweet tooth. Our delicious selection of cakes, muffins, brownies, pies, cupcakes, cookies, and more are made with time-honored recipes that have been passed down for generations. \n\nOur cakes come in a variety of delicious flavors that will tantalize your taste buds. We offer delectable chocolate layers, creamy vanilla swirls, delicious red velvet tiers and even a specialty lemon chiffon cake. We also make custom decorations and flavors to make sure your cake is as special as your occasion. \n\nOur other desserts come in a variety of mouth-watering flavors. We offer a selection of pies including cherry, strawberry, peach, apple, and other seasonal flavors. Our muffins come in lemon poppyseed, blueberry, banana, and chocolate chips. We bake up batches of delicious cupcakes and a variety of cookies. \n\nWe take special requests from our customers and can customize our desserts according to your wants and needs. We use only the freshest, top-of-the-line ingredients and ensure that our desserts look and taste as good as they would in any five-star bakery. \n\nAt My Sweet Bakery, we are committed to providing our customers with the freshest and tastiest sweets. From cakes to cupcakes and cookies to pies, our delectable treats will give you a reason to come back. Take a look at our gallery and come visit us in person to sample our delicious selection.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-ULjCakgSgDnjXXzS6BunQBzh.png?st=2023-01-11T07%3A22%3A59Z&se=2023-01-11T09%3A22%3A59Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T08%3A03%3A06Z&ske=2023-01-12T08%3A03%3A06Z&sks=b&skv=2021-08-06&sig=KR4NZ4vQFJrIpPVqfatJyFsyHXghj3q%2B41LCrzNeYc0%3D"
-      ]
-    },
-    {
-      "section": "Contact Us",
-      "content": "\n\nWelcome to the Contact Us page at Something Sweet Bakery! We can’t wait to hear from you.\n\nIf you have any questions, comments, or would like to place an order, please don’t hesitate to contact us. Our goal is to ensure that every customer feels valued and receives the best possible experience.\n\nTo place an order, please call us at (555)-555-5555 or email us at info@somethingsweetbakery.com. Orders are processed within 72 hours of receipt.\n\nFor general inquiries, please reach out using the form at the bottom of this page or email us at info@somethingsweetbakery.com. Whether you have a compliment, criticism, or just a simple question, we promise to respond quickly and personally.\n\nIf you’re interested in learning more about hosting a special event at Something Sweet Bakery, please visit our Event page or fill out the inquiry form located at the bottom of this page. We would love to make your event extra special with one of our freshly baked cakes or pastries.\n\nOur bakers, baristas, and servers strive to provide excellent customer service and product quality. However, if you are not fully satisfied with any item purchased from Something Sweet Bakery, please contact us within 24 hours of your purchase. We will do our best to accommodate a refund or exchange.\n\nWe hope this page has been helpful! If you need anything else, please do not hesitate to reach out and Contact Us.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-l2PDF1lbTvtPxp4GkiNReoUr.png?st=2023-01-11T07%3A23%3A15Z&se=2023-01-11T09%3A23%3A15Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T05%3A56%3A17Z&ske=2023-01-12T05%3A56%3A17Z&sks=b&skv=2021-08-06&sig=q%2BptCyKI6%2BBaQKOX6xZLcvWoH8%2BsWX%2BH2zptJwA3TUA%3D"
-      ]
-    },
-    {
-      "section": "Blog",
-      "content": "\n\nBakery treats are the perfect way to show someone you care. Whether it’s a birthday, an anniversary, or just a special treat, everyone loves something sweet and delicious. Here at our bakery, we strive to make sure our customers never have to worry about finding the perfect treat for any occasion.\n\nFrom classic cakes and cupcakes to custom creations and unique pastries, our extensive bakery menu has something for everyone. We make sure that each and every treat is made with the freshest ingredients and the utmost attention to detail. Our goal is to make sure that you not only get something delicious, but something that is truly special.\n\nWe also understand that sometimes you need a special treat in a hurry. We are more than happy to accommodate any orders with quick turnaround times. Our staff is versed in all of your favorite kinds of pastries and can whip up some delicious treats for you with very little notice.\n\nAt our bakery, we are passionate about creating amazing treats for our customers. We are a team of baking and pastry professionals that are dedicated to bringing smiles to our customers’ faces. We know that when you choose our bakery, you are making an investment in warm memories and unforgettable moments.\n\nNo matter what kind of occasion you may be celebrating, or even if you just want to treat yourself, our bakery is the perfect place for all your baking needs. Visit us today to see why we are the go-to source for all your special occasions!",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-GIhgMa0nYV2bsutqXgMZO7so.png?st=2023-01-11T07%3A23%3A32Z&se=2023-01-11T09%3A23%3A32Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T03%3A42%3A08Z&ske=2023-01-12T03%3A42%3A08Z&sks=b&skv=2021-08-06&sig=j7sllF/2SPn0vh1kGlTXhnBZDMYQH51Z/ru9mlywc3A%3D"
-      ]
-    },
-    {
-      "section": "FAQ",
-      "content": "\n\nQ. What types of baked goods do you offer?\n\nA. We offer a wide variety of baked goods including cakes, muffins, doughnuts, cookies, pastries, breads, pies and more. We also have a selection of vegan and gluten-free options for those who require special dietary needs. Please feel free to contact us for more information about our full range of products.\n\nQ. Do you offer catering services?\n\nA. Yes we do! We offer catering services for large events and parties. We can provide you with a variety of freshly-baked goodies, from cakes and cupcakes to cookies and pastries. We can also customize an order to fit any special dietary needs. Please contact us for more information and pricing.\n\nQ. What is the minimum order?\n\nA. We can accommodate orders as small as one dozen cookies or cupcakes. For larger orders, we require a minimum of 24 items in order to be able to provide the same quality product and service.\n\nQ. How far in advance should I place my order?\n\nA. To ensure we can provide the best possible product and service, we recommend placing orders at least one week in advance. For large orders or custom orders, we ask that customers contact us at least two weeks in advance so that we can discuss the details and ensure a successful delivery.\n\nQ. What payment methods do you accept?\n\nA. We accept Visa, Master Card, American Express, Discover, and cash. For online orders, we also accept PayPal.\n\nQ. Where are you located?\n\nA. We are located in the heart of downtown Toronto, Ontario. Address and directions can be found on our website.\n\nQ. Are your products nut-free?\n\nA. Yes, all of our products are nut-free. We take great care in our baking process to avoid the use of any nuts or nut-based ingredients. Please contact us for more information.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-SirdGVpbbeKbPRVNIxpghzfY.png?st=2023-01-11T07%3A23%3A51Z&se=2023-01-11T09%3A23%3A51Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T05%3A59%3A01Z&ske=2023-01-12T05%3A59%3A01Z&sks=b&skv=2021-08-06&sig=FB5KZSWfYKMXd4WzYvTHOZve0fQxUzpLqBSeW6t9/9U%3D"
-      ]
-    },
-    {
-      "section": "Testimonials",
-      "content": "\n\n\"It's not often that I come across a bakery that is so committed to making the best product they possibly can. From the moment I walked into SweetBites bakery, I felt like I was a part of something special. The staff was incredibly friendly and inviting, and the atmosphere was warm and inviting. I tried several of the items on the menu, and each one exceeded my expectations. The cupcakes were delicious, with moist and flavorful cake, and the frosting was smooth and creamy. The scones were perfectly flaky, and when I took a bite, the flavors were intense and delicious. I also tried the cafe mocha and it was one of the best I've ever had!\n\nOverall, I am incredibly satisfied with my experience at SweetBites. I am amazed by the passion put into each item and the care taken to ensure each customer has the best experience. I cannot overstate how great this bakery truly is and highly recommend any customer to give them a try. Not only is the product delightful, but the atmosphere coupled with the staff's customer service is unbeatable.\"",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-jmzgrwusMh2mGRh5TPbEP92j.png?st=2023-01-11T07%3A24%3A05Z&se=2023-01-11T09%3A24%3A05Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T07%3A15%3A52Z&ske=2023-01-12T07%3A15%3A52Z&sks=b&skv=2021-08-06&sig=cJdTghmF72cVVciroQxdmlZNAE0MTXB60h%2B/6XTTs3Y%3D"
-      ]
-    },
-    {
-      "section": "Location",
-      "content": "\n\nWelcome to our bakery! We’ve been delighting customers with our delicious cakes, breads, pastries and more for over 30 years. Our bakers are constantly innovating and dreaming up new creations that make our customers’ mouths water.\n\nOur bakery is located in the heart of [LOCATION]. We source many of our ingredients right here and strive to support the local community whenever possible. Our love of fresh, local ingredients and commitment to excellence are what keep our customers coming back.\n\nWe offer a wide variety of baked goods, from our classic cookies and cakes to pies, muffins, tarts, breads and more. We even have custom requests for special occasions and holiday items. We also provide catering options for larger events or gatherings.\n\nOur goal is to provide our customers with the best baked goods using the freshest ingredients possible in an inviting and friendly environment. customer service is always at the top of our list and our bakers are always ready to help you find just the right treat for any occasion. \n\nWe look forward to seeing you soon and thank you for choosing our bakery!",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-a79fYpY4Q62a9bkD7lDK6Arz.png?st=2023-01-11T07%3A24%3A20Z&se=2023-01-11T09%3A24%3A20Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T06%3A42%3A35Z&ske=2023-01-12T06%3A42%3A35Z&sks=b&skv=2021-08-06&sig=9YbkQNdBXygNGvJ1UFfoH3DUJ2STjPxdB/ZZ8hll5mo%3D"
-      ]
-    },
-    {
-      "section": "Order Now",
-      "content": "\n\nWelcome to our Bakery! We offer a wide selection of freshly baked goods from the best ingredients. Our products include cakes, cupcakes, pastry, macarons, and more. All of our products are handmade with love and passion in our local bakery.\n\nIf you're looking for something special for your occasion, we can also create custom cakes and cakesicles. We offer free cake delivery within 15 miles of our local bakery. Just let us know the date and time of your event and we'll make sure it arrives on time!\n\nOrdering is easy! Just select the item you'd like to order, add it to your cart, and proceed to checkout. We accept PayPal and all major credit cards. You'll be able to review and confirm all the details of your order prior to securing your payment.\n\nAll our products are baked fresh and made to order with the highest quality ingredients. As a customer, you can also rest assured that your order will be handled with the utmost care and precision.\n\nWe hope you enjoy our bakery and the freshly baked goodies we have to offer. We pride ourselves on customer satisfaction and look forward to serving you. Happy ordering!",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-I4imo20XTj7KTIOYS19l2JSf.png?st=2023-01-11T07%3A24%3A36Z&se=2023-01-11T09%3A24%3A36Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T07%3A54%3A45Z&ske=2023-01-12T07%3A54%3A45Z&sks=b&skv=2021-08-06&sig=bjoXZs2jnP7IxdhAia8/zr4sYFcCH3XejnraScMR%2BQs%3D"
-      ]
-    },
-    {
-      "section": "Privacy Policy",
-      "content": "\n\nThis Privacy Policy describes how the website of Sample Bakery (“us”, “we”, or “our”) collects, uses, and shares information about visitors to our website. This policy was last updated on last Month.\n\nBy using this website and providing us with your personal information, you consent to the collection, use and disclosure of that information in accordance with this Privacy Policy. Please read this Privacy Policy carefully so that you understand our practices concerning your privacy.\n\nWe may collect anonymous and/or personally identifiable information from our visitors, such as an email address, contact and account information, or any other data that you provide in the course of signing up or using any of our services.\n\nWe may use your personal information to process orders, provide services and support, maintain your account, contact you, or provide promotions and other communication. We may also use your information to improve our services, assess usage and browsing preferences, or when required by law.\n\nWe do not sell, trade, or otherwise transfer your personal information to outside parties. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe that doing so is appropriate, in order to comply with the law, enforce our website policies, or protect our or others’ rights, property, or safety.\n\nWe may use cookies and other technologies to help personalize and enhance your experience on our website. Cookies are small text files stored on your device that enable us to recognize you whenever you return to our website. For more information on how we use cookies, please see our Cookie Policy.\n\nWe strive to maintain the security of your data with reasonable physical, electronic, and organizational measures, but we cannot guarantee that your information will remain secure against all potential malicious actors. We are not responsible for the content or personal information you choose to provide to outside websites and parties, or for the privacy practices of the same.\n\nIf you have any questions about this Privacy Policy or our data practices, please feel free to contact us at [provide an email address]. We are committed to protecting your privacy and look forward to hearing from you.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-uL5cnrSyLRXt1V4J49DGpjkU.png?st=2023-01-11T07%3A25%3A01Z&se=2023-01-11T09%3A25%3A01Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T03%3A38%3A06Z&ske=2023-01-12T03%3A38%3A06Z&sks=b&skv=2021-08-06&sig=xvq5H23nq7evz1bD08bOTzMyLRArH4RFqGGYdYVlUNk%3D"
-      ]
-    },
-    {
-      "section": "Terms & Conditions",
-      "content": "\n\nTerms & Conditions\n\nThis Terms & Conditions Agreement (“Terms”) applies to your access and/or use of the Bakery Website (“Website”). By accessing or using the Website, you hereby agree to be bound by the Terms and all applicable laws. If you do not accept and agree to any of the terms stated below, you should not access or use the Website. \n\nThe Website, including all of its content, information, functionality, logos, icons, images, trademarks, service marks and other brand elements, blog content and other content, products and services (collectively, “Content”) is owned or licensed by Bakery Ltd. and its affiliated companies, licensors and content providers. The Content is provided for your personal, non-commercial viewing only. \n\nYou may only purchase items from the Bakery Website if you are at least 18 years of age or approved by a parent or guardian. By making a purchase from the Website, you hereby acknowledge that you are at least 18 years of age or have the consent of a parent or guardian. \n\nWe may at any time, in our sole discretion and without prior notice, change, modify, add or remove portions of the Terms, Website and Content. Any changes to the Terms will be effective when posted. Your continued use of the Website after any such changes are posted constitutes your agreement to the Terms and your acceptance of any such changes. \n\nThe Website and its Content are provided “as is” and “as available” without warranties of any kind. Bakery Ltd. prints labels on all of its products to serve as proof that the product was produced by Bakery Ltd. Any claim or statement made on or in any label or packaging of Bakery Ltd. products is not the responsibility of Bakery Ltd. \n\nBy using this Website you acknowledge and agree that any reliance on or use of any information available on or through this Website shall be at your own risk. You should exercise reasonable caution and due diligence before taking any action or decision based on the information in this Website. \n\nAll information, including product information, pricing, terms and conditions, images and content, is subject to change without prior notice. We are not liable for any statements, representations, or claims made on or within any product label or packaging.\n\nThese terms and conditions will be governed by and construed in accordance with the laws of the UK, and all disputes in relation to, or in connection with, the Content or this Website will be subject to the non-exclusive jurisdiction of the courts of the UK. Besides these Terms, no other agreement, statement, or understanding, whether written or oral, unrelated to these Terms shall be binding upon Bakery Ltd. \n\nAny attempt to use the Website for purposes other than its intended use is strictly prohibited, and Bakery Ltd. reserves the right to take any action we deem necessary, including legal action, against anyone who does not comply with these Terms.",
-      "images": [
-        "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dkirTs27IqrgcQcmzdZeMDr7/user-SANCWTtfS4BrcK6OmIXNcIkN/img-yfz5d6eRL9lGGFmkEkzRQsvw.png?st=2023-01-11T07%3A25%3A38Z&se=2023-01-11T09%3A25%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-11T07%3A36%3A20Z&ske=2023-01-12T07%3A36%3A20Z&sks=b&skv=2021-08-06&sig=F5FFtGpQ%2BMtoxPOGLeBqyo1gcztizbhCwIZ/KhTbQd0%3D"
+      "name": "Products",
+      "content": [
+        "Our Products",
+        "Freshly Baked Goodies",
+        [
+          {
+            "name": "Lemon Cake",
+            "price": "29.95",
+            "description": "Moist lemon cake with a creamy frosting. Baked fresh every day."
+          },
+          {
+            "name": "Coconut Macaroons",
+            "price": "19.95",
+            "description": "Chewy coconut macaroons, dipped in dark chocolate. Irresistible."
+          },
+          {
+            "name": "Strawberry Tart",
+            "price": "15.95",
+            "description": "A flaky pastry crust filled with sweet and tart strawberry filling. Perfect for a special occasion."
+          },
+          {
+            "name": "Chocolate Fudge Brownies",
+            "price": "14.95",
+            "description": "Chocolatey and gooey, the ultimate indulgence. Don't forget the ice cream!"
+          },
+          {
+            "name": "Almond Croissants",
+            "price": "11.95",
+            "description": "A classic french pastry with a hint of almond. Pairs perfectly with a cup of coffee."
+          }
+        ]
       ]
     }
   ]
