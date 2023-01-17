@@ -4,114 +4,114 @@
     {
       "name": "Hero",
       "content": {
-        "title": "Yummy Bakery",
-        "subtitle": "A one of a kind bakery near you!"
+        "title": "Welcome to Sweet Tooth Bakery!",
+        "subtitle": "The sweetest place around!"
       }
     },
     {
       "name": "Features",
-      "content": [
-        "title":"Our Features",
-        "subtitle":"at Sweet Taste Bakery",
-        "features":[
+      "content": {
+        "title": "Our Features",
+        "subtitle": "What makes us so great!",
+        "items": [
           {
-            "title": "Freshly baked sourdoughs",
-            "description": "Our bakery is known for its handcrafted sourdoughs, crafted with high quality ingredients and freshness guaranteed"
+            "title": "Freshly Baked Every Morning",
+            "description": "We bake fresh pastries, cakes and other delicious treats daily!"
           },
           {
-            "title": "Cakes for every occasion",
-            "description": "Our bakery offers custom made cakes for all kinds of occasions, be it birthday parties, baby showers, anniversaries, etc."
+            "title": "Unique Recipes",
+            "description": "We have unique recipes created just for our bakery that can't be found anywhere else!"
           },
           {
-            "title": "Artisanal pastries",
-            "description": "We offer a selection of artisanal pastries that would take your breath away with their stunning looks and superb taste"
+            "title": "Free Delivery",
+            "description": "Enjoy free delivery on your orders throughout our town!"
           },
           {
-            "title": "Private catering services",
-            "description": "We offer private catering services for events such as weddings, special events, corporate events and more"
+            "title": "High Quality Ingredients",
+            "description": "We only ever use the highest quality ingredients for all our recipes!"
           },
           {
-            "title": "Locally sourced ingredients",
-            "description": "We source all our ingredients locally so that we can ensure that only the best quality ingredients are used"
+            "title": "Satisfaction Guaranteed",
+            "description": "We always guarantee the satisfaction of all our customers, no matter the order!"
           }
         ]
-      ]
+      }
     },
     {
       "name": "About Us",
       "content": {
         "title": "Welcome to Our Bakery",
-        "subtitle": "The Finest Quality Goods Since 2002",
-        "description": "Our Family Bakery, located in the heart of the city, has been serving up the finest quality goods since 2002. We specialize in a variety of baked goods ranging from cakes, cupcakes, and pies to more mouthwatering creations like scones, turnovers, pound cakes, and more. Our highly trained chefs have all the skills needed to make any cake or pastry you desire. Whether it's something simple and classic or something extravagant, our bakery can bring your idea to life. We also offer delivery and catering services! "
+        "subtitle": "Baking Delicious Pastries Since 1998",
+        "description": "Established in 1998, our bakery has been providing the community with delicious pastries, cakes and more. We use the freshest ingredients to ensure all of our baked goods are second-to-none. Our knowledgeable staff will be able to answer any questions you might have on any of the items in our shop, so feel free to ask them anything! Thank you for choosing us, and we hope you enjoy your visit!"
       }
     },
     {
       "name": "Testimonials",
-      "content": [
-        "title":"Delightful Testimonials",
-        "subtitle":"What Our Customers Say",
-        "testimonials":[
+      "content": {
+        "title": "What Our Customers Say",
+        "subtitle": "Testimonials from Our Satisfied Customers",
+        "items": [
           {
-            "name": "Patrick Perfetti",
-            "designation": "Industry Expert",
-            "testimonial": "Your cakes are the best I have tasted in my life. They are so light, moist and delicious. I have been coming back for more and will continue doing so!"
+            "name": "Steve Drake",
+            "designation": "Baker and Chef",
+            "testimonial": "I have tasted some of the best bakery items at this shop. The quality and taste of their products are simply amazing."
           },
           {
-            "name": "Kelsey Davis",
-            "designation": "Event Planner",
-            "testimonial": "Your desserts have been a huge hit at the events that I have thrown. Everyone has been asking for more. Your team did a fantastic job with the presentation and flavor!"
-          },
-          {
-            "name": "TJ Burke",
+            "name": "Ken Sharp",
             "designation": "Food Critic",
-            "testimonial": "We have never tasted cakes as delicious and fresh as yours. You have completely outdone yourselves every single time. Keep up the good work!"
+            "testimonial": "I have been to this shop many times and have never been disappointed. Their cakes are simply divine and I can't get enough of them."
           },
           {
-            "name": "Linda Kent",
-            "designation": "Baker at Large",
-            "testimonial": "Your cakes take baking to a whole new level. I'm always inspired by your attention to detail in every cake that I have tasted. Simply the best!"
+            "name": "Ella Edwards",
+            "designation": "Homemaker",
+            "testimonial": "I am a regular customer at this bakery shop. Whenever I want a yummy treat I know exactly where to go."
           },
           {
-            "name": "Steven Brown",
-            "designation": "Businessman",
-            "testimonial": "I've been ordering from your bakery for years now and I've never been disappointed. You consistently meet my expectations and provide me with the best."
+            "name": "Jenny Brown",
+            "designation": "Caterer",
+            "testimonial": "This is one of the best bakeries I have ever been to. Their products are fresh and always made with love and care."
+          },
+          {
+            "name": "Adam Smith",
+            "designation": "Chocolatier",
+            "testimonial": "The chocolates from this bakery are the best in town. I never miss an opportunity to treat myself to their amazing creations."
           }
         ]
-      ]
+      }
     },
     {
       "name": "Products",
-      "content": [
-        "title":"Our Products",
-        "subtitle":"Freshly Baked Goodies",
-        "products":[
+      "content": {
+        "title": "Our Delicious Bakery Products",
+        "subtitle": "Freshly baked every day",
+        "items": [
           {
-            "name": "Lemon Cake",
-            "price": "29.95",
-            "description": "Moist lemon cake with a creamy frosting. Baked fresh every day."
+            "name": "Strawberry Cheesecake",
+            "price": "$30",
+            "description": "Made with fresh strawberries, cream cheese and graham crackers."
           },
           {
-            "name": "Coconut Macaroons",
-            "price": "19.95",
-            "description": "Chewy coconut macaroons, dipped in dark chocolate. Irresistible."
+            "name": "Carrot Cake",
+            "price": "$25",
+            "description": "A moist, classic cake made with fresh carrots and cream cheese frosting."
           },
           {
-            "name": "Strawberry Tart",
-            "price": "15.95",
-            "description": "A flaky pastry crust filled with sweet and tart strawberry filling. Perfect for a special occasion."
+            "name": "Chocolate Chip Cookies",
+            "price": "$15",
+            "description": "Deliciously soft and chewy chocolate chip cookie made with melted semisweet chocolate."
           },
           {
-            "name": "Chocolate Fudge Brownies",
-            "price": "14.95",
-            "description": "Chocolatey and gooey, the ultimate indulgence. Don't forget the ice cream!"
+            "name": "Lemon Bars",
+            "price": "$20",
+            "description": "A perfect balance between sweet and tart, made with fresh lemons and a buttery crust."
           },
           {
-            "name": "Almond Croissants",
-            "price": "11.95",
-            "description": "A classic french pastry with a hint of almond. Pairs perfectly with a cup of coffee."
+            "name": "Chocolate Cake",
+            "price": "$35",
+            "description": "A delicious, rich and moist chocolate cake made with unsweetened cocoa powder and espresso."
           }
         ]
-      ]
+      }
     }
   ]
 }
