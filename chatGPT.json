@@ -11,9 +11,9 @@
     {
       "name": "Features",
       "content": [
-        "Our Features",
-        "at Sweet Taste Bakery",
-        [
+        "title":"Our Features",
+        "subtitle":"at Sweet Taste Bakery",
+        "features":[
           {
             "title": "Freshly baked sourdoughs",
             "description": "Our bakery is known for its handcrafted sourdoughs, crafted with high quality ingredients and freshness guaranteed"
@@ -48,9 +48,9 @@
     {
       "name": "Testimonials",
       "content": [
-        "Delightful Testimonials",
-        "What Our Customers Say",
-        [
+        "title":"Delightful Testimonials",
+        "subtitle":"What Our Customers Say",
+        "testimonials":[
           {
             "name": "Patrick Perfetti",
             "designation": "Industry Expert",
@@ -82,9 +82,9 @@
     {
       "name": "Products",
       "content": [
-        "Our Products",
-        "Freshly Baked Goodies",
-        [
+        "title":"Our Products",
+        "subtitle":"Freshly Baked Goodies",
+        "products":[
           {
             "name": "Lemon Cake",
             "price": "29.95",
